@@ -1,5 +1,5 @@
 .Navbar  {
-    background-color: rgb(124, 124, 124);
+    background-color: rgb(207, 207, 207);
     padding: 0;
     margin: 0;
     width: 100vw;
@@ -18,4 +18,19 @@
     color: #fff;
     font-size: 22px;
     padding-left: 1.5rem;
+}
+.Navbar h4 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 70px;
+}
+
+.Navbar .brandBlend {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 5px;
+    
 }

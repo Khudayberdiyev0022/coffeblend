@@ -8,7 +8,7 @@ class Navbar extends Component {
         return (
             <div className='Navbar container-fluid'>
                 <nav class="navbar navbar-expand-md navbar-light nav-item">
-                    <Link> Navbar </Link>
+                    <Link to='/'> <h4> Coffee <small className='brandBlend'>Blend</small>   </h4>   </Link>
                     <button class="navbar-toggler d-lg-none" type="button">
                         <span class="navbar-toggler-icon"></span>
                     </button>
