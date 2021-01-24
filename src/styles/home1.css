@@ -1,0 +1,17 @@
+.back {
+    width: 100vw;
+    height: 100vh;
+    background: no-repeat top fixed;
+    transition: linear .7s;
+    text-decoration: none;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
