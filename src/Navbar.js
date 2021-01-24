@@ -14,29 +14,25 @@ class Navbar extends Component {
                     <div class="collapse navbar-collapse" id="collapsibleNavId">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                             <li class="nav-item active">
-                                <nav-link class="nav-link" href="#"><Link> Home </Link></nav-link>
+                                <nav-link class="nav-link" href="#"><Link to='/'> Home </Link></nav-link>
                             </li>
                             <li class="nav-item">
-                                <nav-link class="nav-link" href="#"><Link> Menu </Link></nav-link>
+                                <nav-link class="nav-link" href="#"><Link to='/menu'> Menu </Link></nav-link>
                             </li>
                             <li class="nav-item">
-                                <nav-link class="nav-link" href="#"><Link> Services </Link></nav-link>
+                                <nav-link class="nav-link" href="#"><Link to='/services'> Services </Link></nav-link>
                             </li>
                             <li class="nav-item">
-                                <nav-link class="nav-link" href="#"><Link> Blog </Link></nav-link>
+                                <nav-link class="nav-link" href="#"><Link to='/blog'> Blog </Link></nav-link>
                             </li>
                             <li class="nav-item">
-                                <nav-link class="nav-link" href="#"><Link> About </Link></nav-link>
+                                <nav-link class="nav-link" href="#"><Link to='/about'> About </Link></nav-link>
                             </li>
                             <li class="nav-item dropdown">
-                                <nav-link class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</nav-link>
-                                <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                    <nav-link class="dropdown-item" href="#">Action 1</nav-link>
-                                    <nav-link class="dropdown-item" href="#">Action 2</nav-link>
-                                </div>
+                                <nav-link class="nav-link" href="#"><Link to='/shop'> Shop </Link></nav-link>
                             </li>
                              <li class="nav-item">
-                                <nav-link class="nav-link" href="#"><Link> Contact </Link></nav-link>
+                                <nav-link class="nav-link" href="#"><Link to='/contact'> Contact </Link></nav-link>
                             </li>
                         </ul>
                     </div>
