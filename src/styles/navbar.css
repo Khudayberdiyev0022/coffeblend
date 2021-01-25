@@ -7,10 +7,16 @@
     height: 91px;
     border-bottom: 1px solid rgb(206, 206, 206);
     z-index: 100;
+    transition: ease all 0.3s ;
 }
+
 .Navbar.black{
     background-color: #000;
+    transition: linear all 0.5s;
 }
+
+
+
 .Navbar .navbar {
     width: 100%;
     height: 100%;

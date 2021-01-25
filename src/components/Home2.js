@@ -38,9 +38,7 @@ class Home2 extends Component {
                                 <p className='text-muted'>8:00am - 9:00pm</p>
                             </div>
                         </div>
-
                         <Home3 color='#c49b63' />
-
                     </div>
                 </div>
             </div>

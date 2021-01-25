@@ -58,7 +58,7 @@ class Home1 extends Component {
         } else {
             return (
                 <div>
-                    <h1>Creamy </h1>
+                    <h1>Creamy Hot And Ready To Serve</h1>
                 </div>
             )
         }

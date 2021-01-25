@@ -1,22 +1,17 @@
 .Home3 {
-    /* width: 100vw; */
-    /* height: 500px; */
-    /* height: 500px; */
     margin-top: -100px;
     background-color: #c49b63;
-    /* border: 1px solid blueviolet; */
 }
 
 
  .Home3 .form-group {
-    /* background-color: #c49b63; */
     padding: 1rem;
     width: 480px !important;
-
-    /* border: 1px solid yellow; */
 }
 
 .Home3 .form-control {
+    height: 3rem;
+    margin: 10px;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid !important;
@@ -31,12 +26,16 @@
     color: #fff;
 }
 
-.Home3 input: {
+.Home3 h6 {
+    padding-left: 5px;
     color: #fff;
+    text-transform: uppercase;
 }
 
 .Home3 #btn {
+    height: 3.5rem;
     background-color: #fff;
     color: #000;
     
 }
+
