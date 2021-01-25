@@ -1,0 +1,48 @@
+.Home4 {
+    /* width: 100%; */
+    background: url(../images/bg_4.jpg) no-repeat fixed;
+    /* background-size: cover; */
+    background-position: center center;
+}
+
+.Home4 .discover {
+    justify-content: center;
+    display: flex;
+    margin-top: 8rem;
+}
+
+.Home4 .discover_our {
+    background-color: #000;
+    opacity: 0.7;
+    color: white;
+    width: 550px;
+    height: 430px;
+    padding-top: 5rem;
+    margin-left: -70px;
+}
+
+.Home4 h3 {
+    font-family: 'Great Vibes', cursive;
+    color: #c49b63;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    line-height: 0.2;
+    padding-left: 2rem;
+}
+
+.Home4 h2 {
+    font-size: 44px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    padding-left: 2rem;
+}
+
+.Home4 p {
+    padding: 2rem;
+    color: gainsboro;
+
+}
