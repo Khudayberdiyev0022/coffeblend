@@ -9,9 +9,9 @@ class Home2 extends Component {
     render() {
         return (
             <div className='Home2'>
-                <div className='container pt-5'>
-                    <div class="row no-gutters">
-                        <div className='col-md-3 d-flex'>
+                <div className='container'>
+                    <div class="row no-gutters no-wrap">
+                        <div className='col-md-3 d-flex pt-5'>
                             <div className='icon'>
                                 <FiPhone />
                             </div>
@@ -20,7 +20,7 @@ class Home2 extends Component {
                                 <p className='text-muted'>A small river named Duden flows by their place and supplies.</p>
                             </div>
                         </div>
-                        <div className='col-md-3 d-flex'>
+                        <div className='col-md-3 d-flex pt-5'>
                             <div className='icon'>
                                 <MdGpsFixed />
                             </div>
@@ -29,7 +29,7 @@ class Home2 extends Component {
                                 <p className='text-muted'>203 Fake St. Mountain View, San Francisco, California, USA</p>
                             </div>
                         </div>
-                        <div className='col-md-3 d-flex'>
+                        <div className='col-md-3 d-flex pt-5'>
                             <div className='icon'>
                                 <AiOutlineClockCircle />
                             </div>
@@ -38,7 +38,9 @@ class Home2 extends Component {
                                 <p className='text-muted'>8:00am - 9:00pm</p>
                             </div>
                         </div>
-                <Home3 />
+
+                        <Home3 color='#c49b63' />
+
                     </div>
                 </div>
             </div>

@@ -1,7 +1,11 @@
 .Home2 {
     width: 98.9vw;
     background: #000;
-    /* flex-wrap: nowrap; */
+}
+
+.Home2 .row {
+    flex-wrap: nowrap;
+
 }
 
 .Home2 .icon {

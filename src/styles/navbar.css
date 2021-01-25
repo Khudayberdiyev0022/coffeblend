@@ -6,8 +6,11 @@
     width: 100vw;
     height: 91px;
     border-bottom: 1px solid rgb(206, 206, 206);
+    z-index: 100;
 }
-
+.Navbar.black{
+    background-color: #000;
+}
 .Navbar .navbar {
     width: 100%;
     height: 100%;

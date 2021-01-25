@@ -8,6 +8,7 @@ class Home extends Component {
             <div>
                 <Home1 />
                 <Home2 />
+                <h1 style={{ marginTop: '1000px' }}>hcj</h1>
             </div>
         )
     }

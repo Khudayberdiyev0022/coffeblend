@@ -41,7 +41,28 @@ class Home1 extends Component {
     componentWillUnmount() {
         clearInterval(this.setInterval)
     }
-
+    textRender = () => {
+        if (this.state.img === img1) {
+            return (
+                <div>
+                    <h1>The Best Coffee Testing Experience</h1>
+                 
+                </div>
+            )
+        } else if (this.state.img === img2) {
+            return (
+                <div>
+                    <h1> Amazing Taste &  Beautiful Place</h1>
+                </div>
+            )
+        } else {
+            return (
+                <div>
+                    <h1>Creamy </h1>
+                </div>
+            )
+        }
+    }
 
     render() {
         return (
@@ -50,12 +71,10 @@ class Home1 extends Component {
                     <div className='row justify-content-center align-items-center'>
                         <div className='col-md-6 text-center'>
                             <h3>Welcome</h3>
-                            <h1>The Coffee Testing Experience</h1>
+                            {this.textRender()}
                             <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                             <button className='btn btn1'>Order Now</button>
                             <button className='btn btn-outline-light'>View Menu</button>
-                            
-
                         </div>
                     </div>
                 </div>
