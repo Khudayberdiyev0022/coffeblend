@@ -45,8 +45,20 @@ class Home1 extends Component {
 
     render() {
         return (
-            <div style={{ backgroundImage: `url(${this.state.img})` }} className='back'>
-                
+            <div className='Home1' style={{ backgroundImage: `url(${this.state.img})` }} >
+                <div className='container'>
+                    <div className='row justify-content-center align-items-center'>
+                        <div className='col-md-6 text-center'>
+                            <h3>Welcome</h3>
+                            <h1>The Coffee Testing Experience</h1>
+                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            <button className='btn btn1'>Order Now</button>
+                            <button className='btn btn-outline-light'>View Menu</button>
+                            
+
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }

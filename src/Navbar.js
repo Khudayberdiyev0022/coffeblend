@@ -7,7 +7,7 @@ class Navbar extends Component {
     render() {
         return (
             <div className='Navbar container-fluid'>
-                <nav class="navbar navbar-expand-md navbar-dark nav-item">
+                <nav class="navbar navbar-expand-lg navbar-dark nav-item">
                     <Link to='/'> <h4> Coffee <small className='brandBlend'>Blend</small>   </h4>   </Link>
                     <button class="navbar-toggler d-lg-none" type="button">
                         <span class="navbar-toggler-icon"></span>
@@ -36,7 +36,7 @@ class Navbar extends Component {
                                 <Link to='/contact'> Contact </Link>
                             </li>
                             <li class="nav-item">
-                                <Link to='/shoppingcard'> <FiShoppingCart /> </Link>
+                                <Link to='/shopcard'> <FiShoppingCart /> </Link>
                             </li>
                         </ul>
                     </div>
