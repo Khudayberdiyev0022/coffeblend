@@ -3,12 +3,11 @@ import '../styles/home4.css'
 import about from '../images/about.jpg'
 
 class Home4 extends Component {
-    render() {
+    render() {    
         return (
             <div className='Home4'>
                 <div className='row m-0'>
-                        <img src={about} alt="" />
-                       
+                        <img src={about} alt="" />                   
                         <div className='discover'>
                         <div className='discover_our'>
                             <h3>Discover</h3>    
