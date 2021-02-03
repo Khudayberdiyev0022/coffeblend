@@ -1,14 +1,35 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import {FiShoppingCart} from 'react-icons/fi'
+import { FiShoppingCart } from 'react-icons/fi'
 import './styles/navbar.css'
 
 class Navbar extends Component {
+    constructor(props) {
+        super(props)
+
+        this.state = {
+            scroll: false
+        }
+    }
+    componentDidMount() {
+        window.addEventListener('scroll', this.scrallFunc)
+    }
+
+    scrallFunc = () => {
+        console.log(window.scrollY);
+        if (window.scrollY > 400) {
+            this.setState({ scroll: true })
+        } else {
+            this.setState({ scroll: false })
+
+        }
+    }
+    // Navbar container-fluid
     render() {
         return (
-            <div className='Navbar container-fluid'>
-                <nav class="navbar navbar-expand-md navbar-light nav-item">
-                    <Link> Navbar </Link>
+            <div className={this.state.scroll ? 'Navbar container-fluid black' : 'Navbar container-fluid'}>
+                <nav class="navbar navbar-expand-lg navbar-dark nav-item">
+                    <Link to='/'> <h4> Coffee <small className='brandBlend'>Blend</small>   </h4>   </Link>
                     <button class="navbar-toggler d-lg-none" type="button">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -18,7 +39,7 @@ class Navbar extends Component {
                                 <Link to='/'> Home </Link>
                             </li>
                             <li class="nav-item">
-                             <Link to='/menu'> Menu </Link>
+                                <Link to='/menu'> Menu </Link>
                             </li>
                             <li class="nav-item">
                                 <Link to='/services'> Services </Link>
@@ -32,17 +53,17 @@ class Navbar extends Component {
                             <li class="nav-item dropdown">
                                 <Link to='/shop'> Shop </Link>
                             </li>
-                             <li class="nav-item">
+                            <li class="nav-item">
                                 <Link to='/contact'> Contact </Link>
                             </li>
                             <li class="nav-item">
-                                <Link to='/shoppingcard'> <FiShoppingCart /> </Link>
+                                <Link to='/shopcard'> <FiShoppingCart /> </Link>
                             </li>
                         </ul>
                     </div>
                 </nav>
             </div>
-            )
+        )
     }
 }
 

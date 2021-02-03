@@ -1,0 +1,29 @@
+.Home2 {
+    width: 98.9vw;
+    background: #000;
+}
+
+.Home2 .row {
+    flex-wrap: nowrap;
+
+}
+
+.Home2 .icon {
+    padding-right: 1rem;
+    /* width: 80px; */
+    /* border: 1px solid red; */
+}
+
+.Home2 svg {
+    color: #c49b63;
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+
+.Home2 h6 {
+    padding-top: 5px;
+    font-size: 16px;
+    color: #fff;
+}

@@ -1,0 +1,28 @@
+.Home5 {
+    background: #c49b63;
+    height: 80vh;
+}
+.Home5 .container {
+    height: 100%;
+}
+
+
+.Home5 .row {
+    height: 100%;
+}
+
+.Home5 .col-md-4 {
+    margin: auto;
+}
+
+.Home5 .icon_border {
+    border: 1px solid rgb(87, 87, 87);
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+.Home5 svg {
+    font-size: 50px;
+    margin: 1.5rem;
+}
